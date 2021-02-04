@@ -1,0 +1,194 @@
+/*==============HOME-PAGE=================*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo
+{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 650;
+  font-size: large;
+ 
+}
+
+.showcase
+{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  background-image: url("https://images.unsplash.com/photo-1606145573422-4143383ee7a6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  transition: 0.5s;
+  z-index: 2;
+}
+// .showcase.active
+// {
+//   right: 300px;
+// }
+
+.text h3
+{
+  font-size: 4em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text p
+{
+  font-size: 1.1em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+.a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.a:hover
+{
+  letter-spacing: 6px;
+}
+
+
+
+@media (max-width: 991px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 40px;
+  }
+  .text h2
+  {
+    font-size: 3em;
+  }
+  .text h3
+  {
+    font-size: 2em;
+  }
+}
+
+
+/*==============EXPLORE-PAGE=================*/
+
+.cards {
+  width: 100%;
+  display: flex;
+  // display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  // max-width: 820px;
+}
+
+
+.card__info {
+z-index: 2;
+background-color: #fff;
+border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+ padding: 16px 24px 24px 24px;
+}
+
+.card__by {
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+.card__author {
+  font-weight: 600;
+  text-decoration: none;
+  color: #AD7D52;
+}
+
+
+
+
+.download__btn {
+  float: right;
+}
+
+
+.showcase1
+{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 50vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  background-image: url("https://images.unsplash.com/photo-1606145573422-4143383ee7a6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  transition: 0.5s;
+  z-index: 2;
+}
+.showcase1.active
+{
+  right: 300px;
+}
+
+
+.search_picture {
+  background-image: url("https://images.unsplash.com/photo-1606145573422-4143383ee7a6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  height: 250px;
+  
+}
+
+
+.section {
+  margin-top: 250px;
+}
+
+
+.download_btn {
+  // background-image: url('https://www.flaticon.com/free-icon/direct-download_2810390?term=download%20button&page=1&position=2&page=1&position=2&related_id=2810390&origin=search');
+  float: right;
+  color: #fff;
+  text-decoration: none;
+}
+
+label {
+  color: #fff;
+  text-decoration: none;
+}
