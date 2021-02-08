@@ -4,7 +4,7 @@
 
 This was my second project in the General Assembly Software Engineering Immersive course. It followed a week of learning about React and so it was a real test of how quickly I had picked up the language. This project was completed just under 48 hours. You can launch the app on GitHub pages here.
 
-Link to the website: https://sagalosman.github.io/Project_2/
+Link to the website: https://splash2.netlify.app/
 
 # Brief
 
